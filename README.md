@@ -34,16 +34,18 @@ hxxp://www. tcosc. net/ : 성공
 hxxp://www. torenzoa. net/ : 성공  
 hxxp://www. umj262. com/ : 성공  
 hxxp://www. winclub88. net/my/4D. html : 실패.  확인 요  
-hxxps://graphgame. net/ :  
-hxxps://mujige53770. wixsite. com/ :  
+hxxps://graphgame. net/ : 실패.  
+hxxps://mujige53770. wixsite. com/ : 실패.   
 hxxps://sex. com/ : 성공  
-hxxps://torrenthaja. com/ :  
-hxxps://torrentkim10. net/ :  
-hxxps://webtoon. bamtoki. com/ :  
+hxxps://torrenthaja. com/ : 실패.  
+hxxps://torrentkim10. net/ : 실패.  
+hxxps://webtoon. bamtoki. com/ : 실패.  
 hxxps://www. facebook. com/profile. php?id=100019007882633 : 불가능.  서브디렉토리 존재.   
-hxxps://www. mtbucks. com/ :  
+hxxps://www. mtbucks. com/ : 실패.  
 hxxps://www. opioids. com/offshorepharmacy/index. html : 불가능.  서브디렉토리 존재.   
-hxxps://www. phishtank. com/ :  
+hxxps://www. phishtank. com/ : 실패.  
 hxxps://yobit. net/en/dice: 불가능.  서브디렉토리 존재.   
   
+왜 HTTP의 일부 subdirectory는 필터링이 불가능한지 의문이 들었음. 또한, 규칙이 대다수의 HTTPS 연결을 감지하지 못하여 wireshark로 패킷을 캡쳐해보았는데, TLS 패킷을 보내지 않는 경우가 거의 대다수였음. 왜 이런 차이가 났던 것이며, 이 경우들까지 감지할 수 있는 방법은 있는지 궁금함.
+
 Opt.  Search Keyword: suricata tls  
